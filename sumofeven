@@ -1,0 +1,14 @@
+nums=[]
+print("Enter 5 elements in the list:")
+for i in range(5):
+    val=int(input())
+    nums.append(val)
+sum=0
+for i in range(5):
+    if nums[i]%2==0:
+        sum=sum+num[i]
+print("\n Sum of even numbers is",sum)
+output:
+Enter 5 elements in the list:
+3 5 6 7 8 
+Sum of even numbers is 14
