@@ -1,0 +1,5 @@
+list=[2,4,5,1,7,5,9]
+minimum=min(list)
+print(minimum)
+output:
+1
