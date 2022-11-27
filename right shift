@@ -1,0 +1,4 @@
+n=10
+print(n>>2)
+output:
+1.25
