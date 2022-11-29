@@ -1,0 +1,18 @@
+number1 = int(input())
+number2 = int(input())
+number3 = int(input())
+number4 = int(input())
+print (max(number1, max(number2, max(number3, number4))))
+
+output:
+60
+50
+100
+200
+200
+output 2:
+45
+67
+2
+89
+89
