@@ -1,0 +1,12 @@
+Marks = int(input("Enter Marks:"))
+int=s1,s2,s3,c1,c2,c3
+if(s1>=35):
+  Print("c1")
+if("s2>=35"):
+    print("c2")
+if("s3>=35"):
+    print("c3")
+if(conditions==true):
+    print("PASS")
+else:
+    prnt("FAIL")
