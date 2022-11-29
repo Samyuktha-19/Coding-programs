@@ -1,0 +1,16 @@
+balance=10000
+amount=int(input())
+main_balance=balance-amount
+if amount<balance:
+    print("transaction is successful")
+    print("credited amount",amount)
+    print("main_balance",main_balance)
+else:
+    print("invalid trasaction")
+    output
+    5000
+transaction is successful
+credited amount 5000
+main_balance 5000
+20000
+invalid trasaction
