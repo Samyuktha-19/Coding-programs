@@ -1,0 +1,10 @@
+num=int(input())
+if num<100:
+    print("less than hundred ")
+else:
+    print("greater than hundred")
+    output:
+    45
+    less than hundred
+    108
+    greater than 100
