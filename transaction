@@ -1,0 +1,53 @@
+balance=20000
+print('Banking Trasanction')
+print('********')
+print('1.Credit')
+print('2.Debit')
+print('3. Balance')
+ch=int(input('Enter your choice:'))
+if ch==1:
+       amt=int(input('Enter amount:'))
+       balance=balance+amt
+       print('Amount Credited:',amt)
+       print('Mail balance:',balance)
+elif ch==2:
+    amt=int(input('Enter amount:'))
+    if amt>balance:
+            print('Insufficient balance in your account')
+    else:
+        balance=balance-amt
+        print('Amount Deducted:',amt)
+        print('Mail Balance:',balance)
+        print('Transaction is being processed successfully')
+elif ch==3:
+    print('Main balance:',balance)
+else:
+    print('Invalid option')
+output 1:
+Banking Trasanction
+********
+1.Credit
+2.Debit
+3. Balance
+Enter your choice:3
+Main balance: 20000
+output 2:
+Banking Trasanction
+********
+1.Credit
+2.Debit
+3. Balance
+Enter your choice:2
+Enter amount:60000
+Insufficient balance in your account
+output 3:
+Banking Trasanction
+********
+1.Credit
+2.Debit
+3. Balance
+Enter your choice:1
+Enter amount:50000
+Amount Credited: 50000
+Mail balance: 70000
+
