@@ -1,0 +1,13 @@
+Opin=2563
+pin=int(input())
+if Opin==pin:
+    print("continue the transactions ")
+else:
+    print("incorrect pin number")
+    print("try again")
+    output:
+    6756
+    incorrect pin number
+    try again
+    2563
+    continue the transactions
