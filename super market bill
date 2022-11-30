@@ -1,0 +1,44 @@
+#super market
+maida=150
+wheat=350
+ravva=350
+pulses=60
+salt=25
+cphno=input('Enter Customer phone number:')
+cname=input('Enter Customer name:')
+caddr=input('Enter customer address:')
+maida=int(input('How many maida packets you want!'))
+wheat=int(input('How many wheat packets you want!'))
+ravva=int(input('How many ravva packets you want!'))
+pulses=int(input('How many pulses packets you want!'))
+salt=int(input('How many salt packets you want!'))
+bill=(maida*maidaquantity)+(wheat*wheatquantity)+(ravva*ravvaquantity)+(pulses*pulsesquantity)+(salt*saltquantity)
+if bill>=3000:
+    tax=bill*5/100
+elif bill>=2000:
+    tax=bill*7/100
+elif bill>=1000:
+    tax=bill*10/100
+elif bill>=500:
+    tax=bill*15/100
+else:
+    tax=100
+    tax=tax+bill
+    print('Customer phone number:',cphno)
+    print('Customer Name:',cname)
+    print('Customer address:',caddr)
+    print('Bill amount:',bill)
+    output:
+Enter Customer phone number:1325
+Enter Customer name:sam
+Enter customer address:rjy
+How many maida packets you want!1
+How many wheat packets you want!0
+How many ravva packets you want!0
+How many pulses packets you want!0
+How many salt packets you want!1
+Traceback (most recent call last):
+  File "C:/Users/Bhargav/AppData/Local/Programs/Python/Python311/supermarket.py", line 15, in <module>
+    bill=(maida*maidaquantity)+(wheat*wheatquantity)+(ravva*ravvaquantity)+(pulses*pulsesquantity)+(salt*saltquantity)
+NameError: name 'maidaquantity' is not defined
+
