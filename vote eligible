@@ -1,0 +1,15 @@
+age=int(input('Enter your age:'))
+if age>=18:
+    print('YES')
+    print('You are Eligible for Vote')
+else:
+    print('NO')
+    print('You are not Eligible for Vote')
+    output 1:
+    Enter your age:70
+YES
+You are Eligible for Vote
+output 2:
+Enter your age:12
+NO
+You are not Eligible for Vote
