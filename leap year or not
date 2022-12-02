@@ -1,0 +1,15 @@
+year=int(input())
+if year%4==0 and year%100!=0:
+    print("leap year")
+    print("yes")
+else:
+    print("Not a leap year")
+    print("No")
+    output 1:
+    2024
+leap year
+yes
+output 2:
+2005
+Not a leap year
+No
