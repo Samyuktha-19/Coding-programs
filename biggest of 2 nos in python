@@ -1,0 +1,16 @@
+def biggestof2no(a,b):
+    if a>b:
+        print('a is big')
+    else:
+        print('b is big')
+a= int(input())
+b= int(input())
+biggestof2no(a,b)
+output 1:
+10
+20
+b is big
+output 2:
+666
+150
+a is big
