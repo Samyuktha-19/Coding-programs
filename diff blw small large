@@ -1,0 +1,12 @@
+n=int(input("Enter any five numbers:"))
+for n in range(0,5):
+    if n == 0:
+        if(x < smallest):
+            smallest = x
+            if(x > largest):
+                largest = x
+                largest-smallest==difference
+                print("The smallest number is",smallest)
+                print("The largest number is ",largest)
+                print("The difference between largest and smallest", difference)
+
