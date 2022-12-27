@@ -1,0 +1,41 @@
+n=int(input())
+l=list(map(int,input().split()))
+x=int(input('enter element to be found'))
+if x in l:
+    print('element found')
+    print('located at',l.index(x))
+else:
+    print('element not found')
+    output:
+    9
+1 7 9 4 5 1 7 9 0
+enter element to be found 7
+element found
+located at 1
+
+BINARY SEARCH
+n=int(input())
+l=list(map(int,input().split()))
+x=int(input())
+low=0
+high=n-1
+flag=0
+mid=(low+high)//2
+while high>=low:
+    if x>l[mid]:
+        low=mid+1
+    elif x==l[mid]:
+        flag=1
+        break
+    else:
+        high=mid-1
+    mid=(low+high)//2
+if flag==1:
+    print('Element is found at',mid,'Index location')
+else:
+    print('Element is not found')
+    output:
+    5
+25 45 12 67 89
+25
+Element is not found
